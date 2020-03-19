@@ -1,0 +1,97 @@
+1.1
+    Javalin
+        Javalin er et web framework som gjør at man kan skrive HTML, CSS og javascript frontend, og Java backend.
+        Javalin starter en local webserver og hoster HTML sider.
+        De HTML sidene kan man lese og skrive data til med Java.
+        Som web server bruker Javalin jetty.
+
+<<<<<<< HEAD
+=======
+    -------------------------
+
+>>>>>>> 2097e98c40d074ce67782478881a9c6a2f4d4578
+    Vue.js
+        Vue.js er et javascript framework som er lagd for å lage nettsider.
+        Med kombinasjon med Javalin får man mye enklere syntaks, siden Vue har noen andre versjoner av Javalin kode.
+        Men Vue hoster og hånterer HMTL filer på en annen måte.
+        Dette gjør at når man skal lage front end kan man bruke mindre tid på å gjøre ting.
+
+<<<<<<< HEAD
+=======
+    -------------------------
+
+>>>>>>> 2097e98c40d074ce67782478881a9c6a2f4d4578
+    Anonym Klasse
+       Dette bruker man når man skal lage en klasse, men den klassen trenger en underklass for å fungere.
+       Eksempel:
+       PlaentSystem planetSystem = new PlanetSystem(Name, New planet(Name))
+
+        Her lager man et planets system med et navn og en plaent inni.
+        Den nye planeten er anonym siden man ikke gir den noe navn som van vanligvis ville gjort (Planet planet = new Planet(name))
+
+        Dette gjrø at det blir enklere å opprette klasser som tregner underklasser.
+
+<<<<<<< HEAD
+    MVC (konsept, og hver enkelt del)
+        MVC eller Model View Controller er et konsept der man splitter front og back end.
+
+        Model
+
+        View
+
+        Controller
+
+1.2
+    Jeg jobbet sammen med Mathias mellemstuen.
+=======
+    -------------------------
+
+    MVC (konsept, og hver enkelt del)
+        MVC eller Model View Controller er et konsept der man splitter front og back end.
+        Fordelen med å bruke MVC er at man kan endre på front og back end uten at det har en effekt på den andre delen.
+        Så hvis man skal endre databasen i back end, så lenge man oppfyller hva controlleren vil ha, trenger man ikke å endre på noe i front end.
+
+
+        - Model
+            Her gjøres mesteparten av logiken.
+            Dette er java delen.
+            Controlleren henter informasjon her i fra for å oppdatere UI
+
+        - View
+            Dette er hva brukeren ser og hva brukeren forholder seg til.
+            Dette er HTML, CSS og java.
+            Controlleren oppdaterer informasjonen her basert på hva den henter fra Model.
+
+        - Controller
+            Her er all logiken om hva som skal hentes fra Model og View.
+            Hvis noen trykker på en klap i model, blir er fungsjon i Controll aktivert, og den kjører en eller flere fungsjoner i Model.
+            Model gjør noe og sender informasjon tilbake til Controlleren.
+            Controlleren hånterer informasjonen og oppdaterer View.
+
+            Controlleren har "tilgang" til "alle" klassene i Model.
+
+-------------------------
+
+1.2
+    Jeg jobbet sammen med Mathias Mellemstuen.
+>>>>>>> 2097e98c40d074ce67782478881a9c6a2f4d4578
+    Den største forskjellen er at Mathias har en veldig annen file reader implementasjon en det jeg har.
+    Han sin er mye mer statisk, men blir brukt til å bare lese alle linjene, og han må da implementere logik for hva han skal gjøre med vær linje.
+
+    Mathias har ikke menyer til main.
+
+<<<<<<< HEAD
+    Mathias har heller ikke "bruker input" håntering.
+=======
+    Mathias har heller ikke "bruker input" håntering.
+
+    --------------------
+
+    Jeg jobbet også med Ruben Fosby.
+    Jeg og han har gjort mye forskjelig. Der jeg har brukt enums, har han lagd egende fungsjoner.
+    Filleseren hans er mye enklere en min.
+    Han sin input hånterer er basert på en helt annet konsept, den hånterer alt av input og ja/nei.
+    Han har også en tekst til ASKII converterer, den har jeg ikke, og hvordan han lagde den er intresant.
+
+    Vi har også hat en del forskjelige problemer som vi har måtte løst, så det er mange små ting som er forskjellig grunnet de forskjellige problemene.
+>>>>>>> 2097e98c40d074ce67782478881a9c6a2f4d4578
